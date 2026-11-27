@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
+
+<head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>meu site</title>
+        <title>Alpha sigma suplementos</title>
         <style>
             header{
                 background-color: #480E0E;
@@ -13,6 +14,7 @@
                 margin: 0 auto;
                 border: 5px solid black;
                 padding: 16px;
+
             }
 
             main{
@@ -23,19 +25,35 @@
                 margin: 0 auto;
                 border: 5px solid black;
                 padding: 16px;
-                display: flex;
+
             }
-           
+
+            main {
+                background-color: bisque;
+                color: blueviolet;
+                text-align: center;
+                max-width: 5200px;
+                margin: 0 auto;
+                border: 5px solid black;
+                padding: 16px;
+            }
+
+            aticle{
+                display: flex;
+            
+            }
+
             img{
                 height: 80px;
-                width: 80;
+                width: 80px;
             }
             .artigo-autor{
                 font-weight: bold;
             }
-            
         </style>
+
     </head>
+
     <body>
         <header>
             <h1>suplementos alpha sigma</h1>
@@ -43,13 +61,26 @@
         </header>
         
         <main>
+            <article>
+
             <img src="imagem-blog.png" alt="">
             <div>
-                 <h2>subtitulo</h2>
-                <p>contextualidade</p>
-                <p>by</p>
-                <button>🐎<span>0</span></button>
-            </div>        
+                 <h2>Melhores dicas sobre suplementos e treinos desde 2023</h2>
+                <p>Está é a formula do futuro </p>
+                <p>Anderson W.</p>
+                <button>❤️<span>0</span></button>
+            </div>   
+            </article>     
+
+            <article>
+                <img src="imagem-blog2.webp" alt="">
+                <div>
+                    <h2>Alpha sigma</h2>
+                    <p>O simbolo de força e motivação para suplementos</p><p>por:</p>
+                    <button>❤️</button>
+                <button>💪</button>
+                </div>
+            </article>
         </main>
 
     </body>
@@ -61,5 +92,6 @@
             let texto = botao.querySelector("span")
             texto.textContent++;
          }
+        }};
    </script>
 </html>
